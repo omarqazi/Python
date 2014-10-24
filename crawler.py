@@ -71,8 +71,8 @@ def make_twitter_request(twitter_api_func, max_errors=10, *args, **kw):
                 logging.warning("Retrying in 15 minutes...ZzZ...")
                 sys.stderr.flush()
                 time.sleep(60*15 + 5)
-                print >> sys.stderr, '...ZzZ...Awake now and trying again.'
-                logging.warning("...ZzZ...Awake now and trying again.")
+                print >> sys.stderr, '...ZZZ...Awake now and trying again.'
+                logging.warning("...ZZZ...Awake now and trying again.")
                 return 2
             else:
                 raise e # Caller must handle the rate limiting issue
