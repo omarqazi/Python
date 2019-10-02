@@ -2,6 +2,7 @@
 # Assignment 2 (tic tac toe program) 
 # Harsh Pathak
 # hpathak@indiana.edu
+# @lazygetter on Twitter $TSLAQ
 
 ##############################################################
 ## This code has been written and compiled in python
